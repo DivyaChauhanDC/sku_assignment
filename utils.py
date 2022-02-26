@@ -3,9 +3,6 @@ from datetime import date, timedelta, datetime
 import pandas as pd
 
 
-from .db import get_db_connection
-
-
 def fetch_transaction_info(transaction_id):        
     col_list = ["transaction_id", "sku_id", "sku_price", "transaction_datetime"]
 
