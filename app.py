@@ -2,7 +2,7 @@ import traceback
 from flask import Flask, request, json, Response
 
 
-from .utils import fetch_transaction_info, fetch_transaction_summary
+from utils import fetch_transaction_info, fetch_transaction_summary
 
 app = Flask(__name__)
 
